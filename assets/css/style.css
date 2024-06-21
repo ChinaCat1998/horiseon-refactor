@@ -96,25 +96,27 @@ p {
 
 .benefit-lead,
 .benefit-brand,
-.benefit-cost h3 {
+.benefit-cost {
   margin-bottom: 10px;
   text-align: center;
 }
 
 .benefit-lead,
 .benefit-brand,
-.benefit-cost img {
+.benefit-cost {
   display: block;
   margin: 10px auto;
   max-width: 150px;
+  max-height: 300px;
 }
 
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 30px;
   height: 300px;
+  text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
@@ -139,7 +141,8 @@ p {
 
 .online-reputation-management h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 32px;
+  max-width: fit-content;
 }
 
 .social-media-marketing h2 {
